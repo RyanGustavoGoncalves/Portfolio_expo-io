@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="component/style.css">
+        <link rel="shortcut icon" href="https://bognarjunior.files.wordpress.com/2018/03/if_react-js_logo_1174949.png" type="image/x-icon">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfólio-React</title>
+    </head>
+    <body>
+        <main>
+            <section onmouseenter="rodar()" style="padding: 20px;">
+                <div id="girar">
+                    <img id="imag" style="filter: drop-shadow(0px 0px 85px white);" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" alt="React-logo" width="200">
+                </div>
+            </section>
+            <section>
+                <article id="inicio" class="titulo">
+                    <h1>Eu sou <span>Ryan Gonçalves</span>, estudante.</h1>
+                </article>
+            </section>
+            <section>
+                <article class="redes">
+                    <ul>
+                        <a href="https://github.com/RyanGustavoGoncalves?tab=repositories" target="_blank">
+                            <li>
+                                <img class="img-redes" src="assets/git_white.png" alt="gitHub" srcset="">
+                            </li>
+                        </a>
+                        <a href="https://instagram.com/rgg09z?igshid=MzRlODBiNWFlZA==" target="_blank">
+                            <li>
+                                <img class="img-redes" src="assets/instagram_white.png" alt="" srcset="">
+                            </li>
+                        </a>
+                    </ul>
+                </article>
+            </section>
+            <section>
+                <article>
+                    <h2>Meus projetos!</h2>
+                </article>
+            </section>
+
+            <section class="projetos">
+                <article class="tit_video">
+                    <div style="padding: 10px;">
+                        <h3>App Música</h3>
+                    </div>
+                    <div class="phone-container">
+                        <video class="phone-video" width="179" height="400" controls muted="true">
+                            <source src="assets/WhatsApp Video 2023-09-10 at 22.27.34.mp4" type="video/mp4">
+                            <object data="" width="320" height="240">
+                                <embed width="179" height="400" src="assets/WhatsApp Video 2023-09-10 at 22.27.34.mp4">
+                            </object>
+                        </video>
+                    </div>                                         
+                </article>
+                <article class="txt_desc_projet">
+                    <div class="des">
+                        <span id="txt_zoom" onmouseover="zoomTxt_T(this)">O protótipo de aplicativo de reprodução de música feito com o framework React Native é uma versão inicial que oferece funcionalidades básicas, como reprodução de músicas, busca por artistas e criação de playlists. Embora ainda em desenvolvimento, o protótipo demonstra a potencialidade do aplicativo final, com uma interface intuitiva e recursos essenciais para os amantes da música.</span>
+                   </div>
+
+                   <div style="display: flex; justify-content: center; padding: 15px;">
+                       <a href="codeTelas/musicapp.html" target="_blank">
+                            <button class="btn">Código</button>
+                        </a>
+                   </div>
+                </article>
+            </section>
+
+            <section class="projetos">
+                <article class="tit_video">
+                    <div style="padding: 10px;">
+                        <h3>Yu-Gi-Oh Card</h3>
+                    </div>
+                    <div class="phone-container">
+                        <video class="phone-video" width="179" height="400" controls>
+                            <source src="assets/WhatsApp Video 2023-09-14 at 12.05.04.mp4" type="video/mp4">
+                            <object data="" width="320" height="240">
+                                <embed width="179" height="400" src="assets/WhatsApp Video 2023-09-10 at 22.27.34.mp4">
+                            </object>
+                        </video>
+                    </div>                                         
+                </article>
+                <article class="txt_desc_projet">
+                    <div class="des">
+                        <span id="txt_zoom" onmouseover="zoomTxt_T(this)">Aplicação mobile para que pareça com um card yu-gi-oh. O usúario pode virar o card com um toque na tela do seu celular.</span>
+                   </div>
+
+                   <div style="display: flex; justify-content: center; padding: 15px;">
+                    <a href="codeTelas/YuGi.html" target="_blank">
+                         <button class="btn">Código</button>
+                    </a>
+                </div>
+                </article>
+            </section>
+            
+            <section class="projetos">
+                <article class="tit_video">
+                    <div style="padding: 10px;">
+                        <h3>Filtro de Filmes</h3>
+                    </div>
+                    <div class="phone-container">
+                        <video class="phone-video" width="179" height="400" controls>
+                            <source src="assets/WhatsApp Video 2023-09-14 at 12.07.04.mp4" type="video/mp4">
+                            <object data="" width="320" height="240">
+                                <embed width="179" height="400" src="assets/WhatsApp Video 2023-09-10 at 22.27.34.mp4">
+                            </object>
+                        </video>
+                    </div>                                         
+                </article>
+                <article class="txt_desc_projet">
+                    <div class="des">
+                        <span id="txt_zoom" onmouseover="zoomTxt_T(this)">O Projeto <strong>Filtro de Filmes</strong> foi desenvolvido com o objetivo de proporcionar aos usuários uma maneira eficiente e conveniente de buscar informações sobre filmes. Com recursos avançados de busca, oferecemos aos amantes do cinema a capacidade de encontrar filmes de maneira rápida e precisa, tornando a experiência de descoberta de filmes mais agradável.</span>
+                   </div>
+
+                   <div style="display: flex; justify-content: center; padding: 15px;">
+                    <a href="codeTelas/Filmes.html" target="_blank">
+                         <button class="btn">Código</button>
+                     </a>
+                </div>
+                </article>
+            </section>
+
+            <section class="projetos">
+                <article class="tit_video">
+                    <div style="padding: 10px;">
+                        <h3>Calculadora Básica</h3>
+                    </div>
+                    <div class="phone-container">
+                        <video class="phone-video" width="179" height="400" controls>
+                            <source src="assets/WhatsApp Video 2023-09-16 at 23.06.15.mp4" type="video/mp4">
+                            <object data="" width="320" height="240">
+                                <embed width="179" height="400" src="assets/WhatsApp Video 2023-09-10 at 22.27.34.mp4">
+                            </object>
+                        </video>
+                    </div>                                         
+                </article>
+                <article class="txt_desc_projet">
+                    <div class="des">
+                        <span id="txt_zoom" onmouseover="zoomTxt_T(this)">Aplicação mobile simples com funcionalidades matemáticas precisas e intuitiva que atende a todas as suas necessidades de cálculos matemáticos básicos. A calculadora dispõe de operções de Soma, Subtração, Multiplicação e Divição.</span>
+                   </div>
+
+                   <div style="display: flex; justify-content: center; padding: 15px;">
+                    <a href="codeTelas/Calculadora.html" target="_blank">
+                         <button class="btn">Código</button>
+                     </a>
+                </div>
+                </article>
+            </section>
+
+            <section class="projetos">
+                <article class="tit_video">
+                    <div style="padding: 10px;">
+                        <h3>Tela de Login</h3>
+                    </div>
+                    <div class="phone-container">
+                        <video class="phone-video" width="179" height="400" controls>
+                            <source src="assets/WhatsApp Video 2023-09-16 at 23.06.11.mp4" type="video/mp4">
+                            <object data="" width="320" height="240">
+                                <embed width="179" height="400" src="assets/WhatsApp Video 2023-09-10 at 22.27.34.mp4">
+                            </object>
+                        </video>
+                    </div>                                         
+                </article>
+                <article class="txt_desc_projet">
+                    <div class="des">
+                        <span id="txt_zoom" onmouseover="zoomTxt_T(this)">Esse projeto utiliza-se de uma ferramenta de navegação de telas chamada NavigationContainer que facilita que o usúario navegue pelo aplicativo, no projeto foi simulado uma tela de login.</span>
+                   </div>
+
+                   <div style="display: flex; justify-content: center; padding: 15px;">
+                    <a href="codeTelas/Login.html" target="_blank">
+                         <button class="btn">Código</button>
+                     </a>
+                </div>
+                </article>
+            </section>
+
+            <section class="projetos">
+                <article class="tit_video">
+                    <div style="padding: 10px;">
+                        <h3>Avalição</h3>
+                    </div>
+                    <div class="phone-container">
+                        <video class="phone-video" width="179" height="400" controls>
+                            <source src="assets/WhatsApp Video 2023-09-19 at 17.10.38.mp4" type="video/mp4">
+                            <object data="" width="320" height="240">
+                                <embed width="179" height="400" src="assets/WhatsApp Video 2023-09-19 at 17.10.38.mp4">
+                            </object>
+                        </video>
+                    </div>                                         
+                </article>
+                <article class="txt_desc_projet">
+                    <div class="des">
+                        <span id="txt_zoom" onmouseover="zoomTxt_T(this)">Atividade avaliativa do professor Rogério, foram passados críterios avaliativos sobre interação de telas e manipulações.</span>
+                   </div>
+
+                   <div style="display: flex; justify-content: center; padding: 15px;">
+                    <a href="codeTelas/Avaliacao.html" target="_blank">
+                         <button class="btn">Código</button>
+                     </a>
+                </div>
+                </article>
+            </section>
+
+            <article onmouseout="zoomTxt_F()" id="popup">
+                <section id="txtPop" class="txt_pop">
+                </section>
+            </article>
+            
+        </main>
+        <article class="sub">
+            <a href="#inicio">
+                <img src="assets/icons8-divisa-circulada-acima-32.png" alt="subir">
+            </a>
+        </article>
+
+        <script src="component/app.js"></script>
+    </body>
+</html>
