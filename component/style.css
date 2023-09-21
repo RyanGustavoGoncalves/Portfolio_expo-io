@@ -160,4 +160,34 @@ article.sub{
     justify-content: flex-end;
     padding: 10px;
 }
+@media (max-width: 768px){
+    .txt_pop{
+        font-size: 15px;
+        font-weight: bold;
+    }
+    #popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #ffffff;
+        padding: 20px;
+        border: 1px solid #000;
+        box-shadow: 17px 17px 10px rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+    }
+    h1> span{
+        font-size: 25px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    article>div.des>span{
+        font-size: 10px;
+    }
+    article.tit_video{
+        padding: 25px;
+    }
+}
 
